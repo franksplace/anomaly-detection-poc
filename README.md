@@ -42,7 +42,7 @@ Convert standard Syslog Logs into CSV for processing by the Anomaly Detection sc
 Detection of anomalies on the log file.   The larger the file is better based on current POC.
 
 ```
-./detect_log_anomalies.py --input_file logfile.csv --output_file logfiles-with-anomalies.vsv
+./detect_log_anomalies.py --input_file logfile.csv --output_file logfile-with-anomalies.vsv
 ```
 
 The following are new columns added and the explanation:
